@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cbt_virus", "cbt_virus\cbt_virus.vcproj", "{5760B1E7-5B4E-4A19-8737-1846D39D1E37}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cbt_virus", "cbt_virus\cbt_virus.vcxproj", "{5760B1E7-5B4E-4A19-8737-1846D39D1E37}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cbt_virus_backend", "cbt_virus_backend\cbt_virus_backend.vcproj", "{993A025D-21C0-48E7-BE95-657F21A09DAF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cbt_virus_backend", "cbt_virus_backend\cbt_virus_backend.vcxproj", "{993A025D-21C0-48E7-BE95-657F21A09DAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

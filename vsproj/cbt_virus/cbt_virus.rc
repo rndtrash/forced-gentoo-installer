@@ -1,11 +1,11 @@
-//Описание ресурсов, созданное в Microsoft Visual C++.
+// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
 //
-// Создано из ресурса TEXTINCLUDE 2.
+// Generated from the TEXTINCLUDE 2 resource.
 //
 #ifndef APSTUDIO_INVOKED
 #include "targetver.h"
@@ -13,69 +13,42 @@
 #define APSTUDIO_HIDDEN_SYMBOLS
 #include "windows.h"
 #undef APSTUDIO_HIDDEN_SYMBOLS
+
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-LANGUAGE 25, 1
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 #pragma code_page(1251)
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Значок
+// Icon
 //
 
-// Значок с наименьшим значением идентификатора помещается первым, чтобы гарантировать использование
-// идентичного значка приложения для всех систем.
-
-IDI_CBT_VIRUS       ICON         "cbt_virus.ico"
-IDI_SMALL               ICON         "small.ico"
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CBT_VIRUS           ICON                    "cbt_virus.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Меню
-//
-
-IDC_CBT_VIRUS MENU
-BEGIN
-    POPUP "&Файл"
-    BEGIN
-        MENUITEM "В&ыход",                IDM_EXIT
-    END
-    POPUP "&Справка"
-    BEGIN
-        MENUITEM "&О программе ...",           IDM_ABOUT
-    END
-END
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Сочетание клавиш
-//
-
-IDC_CBT_VIRUS ACCELERATORS
-BEGIN
-    "?",            IDM_ABOUT,              ASCII,  ALT
-    "/",            IDM_ABOUT,              ASCII,  ALT
-END
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Диалоговое окно
+// Dialog
 //
 
 IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "О проекте cbt_virus"
-FONT 8, "MS Shell Dlg"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    ICON            128,IDC_STATIC,14,14,21,20
     LTEXT           "cbt_virus, версия 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
     LTEXT           "Copyright (C) 2021",IDC_STATIC,42,26,114,8
     DEFPUSHBUTTON   "ОК",IDOK,113,41,50,14,WS_GROUP
 END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -95,19 +68,21 @@ BEGIN
 END
 #endif    // APSTUDIO_INVOKED
 
+
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
 //
 // TEXTINCLUDE
 //
-1 TEXTINCLUDE
+
+1 TEXTINCLUDE 
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE
+2 TEXTINCLUDE 
 BEGIN
-	"#ifndef APSTUDIO_INVOKED\r\n"
+    "#ifndef APSTUDIO_INVOKED\r\n"
     "#include ""targetver.h""\r\n"
     "#endif\r\n"
     "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
@@ -116,7 +91,7 @@ BEGIN
     "\0"
 END
 
-3 TEXTINCLUDE
+3 TEXTINCLUDE 
 BEGIN
     "\r\n"
     "\0"
@@ -124,18 +99,45 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
-// Таблица строк
+// String Table
 //
 
 STRINGTABLE
 BEGIN
-   IDC_CBT_VIRUS   "CBT_VIRUS"
-   IDS_APP_TITLE       "cbt_virus"
+    IDS_APP_TITLE           "CoinBooster Turbo"
+    IDS_CBT_REQUIRE_ADMIN   "Инсталлятор CoinBooster Turbo не может продолжить работу без прав администратора.\r\n\r\nПожалуйста, перезапустите приложение от имени администратора."
+    IDS_CBT_DISCLAIMER      "Я обязан предупредить тебя, что эта программа — самый настоящий вирус, способный удалить все твои данные.\r\n\r\nНажми кнопку ОК три раза, если ты действительно хочешь продолжить, но ради твоего же блага советую нажать кнопку ""Отмена""."
+    IDC_CBT_VIRUS           "CBT_VIRUS"
 END
 
-#endif
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "CoinBooster Turbo"
+    IDS_CBT_REQUIRE_ADMIN   "The CoinBooster Turbo Installing Suite cannot run without Administrator's rights.\r\n\r\nPlease run this executable as an Administrator."
+    IDS_CBT_DISCLAIMER      "I am legally obligated to ruin the immersion and warn you that this application is actually a virus, and it will destroy all of your data, the loss of which you might find suboptimal.\n\n\r\n\r\nPress the OK button three times if you really want to proceed, but you better press Cancel for your own good."
+    IDC_CBT_VIRUS           "CBT_VIRUS"
+END
+
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -143,8 +145,10 @@ END
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
 //
-// Создано из ресурса TEXTINCLUDE 3.
+// Generated from the TEXTINCLUDE 3 resource.
 //
 
+
 /////////////////////////////////////////////////////////////////////////////
-#endif    // не APSTUDIO_INVOKED
+#endif    // not APSTUDIO_INVOKED
+
